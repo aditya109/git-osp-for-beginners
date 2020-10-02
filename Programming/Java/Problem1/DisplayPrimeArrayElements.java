@@ -1,4 +1,3 @@
-
 public class DisplayPrimeArrayElements {
     public static void main(String[] args) {
         int n[] = new int[10];
@@ -20,7 +19,7 @@ public class DisplayPrimeArrayElements {
             }
 
             if (f == 0)
-                System.out.println(" Prime number=" + n[i]);
+                System.out.println("Prime number=" + n[i]);
         }
     }
 }
