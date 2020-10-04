@@ -1,7 +1,6 @@
 #Contributed by @Hinal-Srivastava
 
 #Alphabetical Equilateral Triangle
-
 size = 7
 asciiNumber = 65
 m = (2 * size) - 2

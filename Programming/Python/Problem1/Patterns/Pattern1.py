@@ -1,5 +1,4 @@
 #Contributed by @Hinal=Srivastava
-
 #Diamond
 rows = 5
 k = 2 * rows - 2
