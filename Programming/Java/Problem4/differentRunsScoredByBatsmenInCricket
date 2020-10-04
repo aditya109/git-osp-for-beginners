@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+class Batsman {
+    private String name;
+    private int runs;
+
+    public int getRuns () {
+        return runs;
+    }
+
+    public String getName () {
+        return name;
+    }
+
+    public void setName (String name) {
+        this.name = name;
+    }
+
+    public void setRuns (int runs) {
+        this.runs = runs;
+    }
+}  
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+        Batsman[] iplBatsmans = new Batsman[11];
+        Scanner sc = new Scanner(System.in);
+        for(int i=0; i<iplBatsmans.length; i++) {
+            iplBatsmans[i] = new Batsman();
+            System.out.println("Enter the name of the batsman["+i+"]:");
+            iplBatsmans[i].setName(sc.nextLine());
+            System.out.println("Enter the number of runs the batsman has scored["+i+"]:"); 
+            iplBatsmans[i].setRuns(sc.nextInt());
+            sc.nextLine();
+        }
+        sc.close();
+        int max = iplBatsmans[0].getRuns();
+        String maxName = iplBatsmans[0].getName();
+        for(int i=1; i<iplBatsmans.length; i++) {
+            if(iplBatsmans[i].getRuns() > max) {
+                max = iplBatsmans[i].getRuns();
+                maxName = iplBatsmans[i].getName();
+            }
+        }
+        System.out.println(maxName+" with "+max+" has scored the maximum no of runs");
+    }
+}
+
