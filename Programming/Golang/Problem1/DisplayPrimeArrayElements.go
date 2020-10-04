@@ -6,8 +6,6 @@ import (
 	"strconv"
 )
 
-// Take input from user and add to all the previous inputs
-
 func main() {
 	var arr [20]int64
 	var input string
@@ -22,7 +20,6 @@ func main() {
 			fmt.Println("Not a number")
 		} else {
 			arr[i] = val
-
 		}
 	}
 	fmt.Println("Result")
