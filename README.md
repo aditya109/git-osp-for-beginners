@@ -8,7 +8,7 @@ Steps to follow:
 -   [ ] Learn basic GitHub Commands from `github_cmd.md`.
 -   [ ] View `contribution_guidelines.md` to learn how to contribute to this repository.
 -   [ ] If you face any problem, please feel free to raise any issue.
-
+follow these steps for contribute 
 Happy coding !
 
 With 💚 from India.
