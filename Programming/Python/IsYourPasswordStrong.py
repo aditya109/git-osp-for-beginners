@@ -6,6 +6,8 @@ Here are the conditions for the password to be strong:
   It contains at least one lowercase English character.
   It contains at least one uppercase English character.
   It contains at least one special character. The special characters are: !@#$%^&*()-+
+
+Author: @Aashrut
 '''
 
 # Function that will check if password is strong or not.    
