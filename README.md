@@ -2,7 +2,7 @@
 
 A GitHub Repository to encourage and involve beginners in Open Source Contributions
 
-Steps to follow:
+There are four Steps to follow:
 
 -   [ ] Learn about Open Source Contribution from `open_source.md`.
 -   [ ] Learn basic GitHub Commands from `github_cmd.md`.
