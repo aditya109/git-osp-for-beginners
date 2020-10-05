@@ -12,14 +12,21 @@ public class DisplayPrimeArrayElements {
 
         for (i = 0; i < n.length; i++) {
             int f = 0;
-            for (j = 2; j < n[i]; j++) {
-                if (n[i] % j == 0) {
-                    f++;
-                }
-            }
-
-            if (f == 0)
+            if(n[i] == 2)
+            {
                 System.out.println("Prime number=" + n[i]);
+            }
+            else if(n[i]>2)
+            {
+                for (j = 2; j < n[i]; j++) {
+                    if (n[i] % j == 0) {
+                        f++;
+                        break;
+                    }
+                }
+                if (f == 0)
+                    System.out.println("Prime number=" + n[i]);
+            }
         }
     }
 }
