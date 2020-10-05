@@ -20,7 +20,7 @@ int main() {
    int input;
    cout<<"Enter a number:";
    cin>>input;
-   for(int n = 2; n < input; n++)
+   for(int n = 2; n <= input; n++)
    {
        if(checkPrime(n) == true)
           cout<<n<<" ";
