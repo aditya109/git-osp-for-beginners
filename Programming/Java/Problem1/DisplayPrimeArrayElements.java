@@ -1,9 +1,9 @@
 public class DisplayPrimeArrayElements {
     public static void main(String[] args) {
-        int n[] = new int[10];
+        int n[] = new int[100];
         int i, j;
         for (i = 0; i < n.length; i++) {
-            n[i] = (int) (Math.random() * 100);
+            n[i] = (int) (Math.random() * 10000);
         }
         for (i = 0; i < n.length; i++) {
             System.out.print(n[i] + " ");
@@ -19,7 +19,7 @@ public class DisplayPrimeArrayElements {
             }
 
             if (f == 0)
-                System.out.println("Prime number=" + n[i]);
+                System.out.println("Prime number that is being got=" + n[i]);
         }
     }
 }
