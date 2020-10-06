@@ -1,0 +1,59 @@
+<%@ Page Language="C#" AutoEventWireup="true"  MasterPageFile="~/Site1.Master" CodeBehind="officer.aspx.cs" Inherits="payments.officer" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server" >
+
+</asp:Content>
+
+ <asp:Content ID="Content2"  ContentPlaceHolderID="ContentPlaceHolder2" runat="server" >
+
+     <div>
+    </div>
+    <asp:Panel ID="Panel1" runat="server" Height="1624px" style="margin-bottom: 209px" BorderColor="#66FFFF" BackImageUrl="~/images/asap.jpg" ForeColor="White">
+            
+        <h1 style="color: #FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Officer Details&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+            <br />
+            <br />
+
+            <b><label style="margin-left:400px;">Officer ID </label> </b> <asp:TextBox ID="txt_id" runat="server" Width="238px" CssClass="auto-style3"></asp:TextBox>
+            <br />
+            <br />
+
+           <b><label style="margin-left:400px;"> Officer Name</label></b><asp:TextBox ID="txt_name" runat="server" Width="242px" CssClass="auto-style5" Height="24px"></asp:TextBox>
+            <br />
+            <br />
+
+           <b><label style="margin-left:400px;"> Description</label></b><asp:TextBox ID="txt_des" runat="server" Width="242px" CssClass="auto-style6" Height="24px"></asp:TextBox>
+            <br />
+            <br />
+            
+             <b><label style="margin-left:400px;">Officer Salary</label></b> <asp:TextBox ID="txt_sal" runat="server" Width="242px" CssClass="auto-style4"></asp:TextBox>
+            <br />
+            <br />
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btn_edit" runat="server" Text="Edit" Width="86px" class="btn btn-info" OnClick="btn_edit_Click" Height="34px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="btn_add" runat="server" class="btn btn-primary" Height="34px" Text="Submit" Width="86px" OnClick="btn_add_Click" />
+
+            <asp:Button ID="btn_delete"  runat="server" Height="34px" class="btn btn-danger" Text="Delete" Width="86px" OnClick="btn_delete_Click" style="margin-left: 29px" />
+            <asp:GridView ID="GridView1" runat="server">
+            </asp:GridView>
+
+ </asp:Panel>      
+  </asp:Content>
+  <asp:Content ID="Content3" runat="server" contentplaceholderid="head">
+      <style type="text/css">
+        .auto-style3 {
+            margin-left: 191px;
+        }
+        .auto-style4 {
+            margin-left: 156px;
+        }
+    .auto-style5 {
+        margin-left: 163px;
+    }
+          .auto-style6 {
+              margin-left: 172px;
+          }
+    </style>
+</asp:Content>
