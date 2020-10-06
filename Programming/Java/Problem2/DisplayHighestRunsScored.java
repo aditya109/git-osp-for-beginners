@@ -9,7 +9,7 @@ public class DisplayHighestRunsScored {
         int i;
         int highest;
         for (i = 0; i < size; i++) {
-            System.out.println("Enter the name and runs scored by the cricket player : ");
+            System.out.println("Enter the name and runs scored by the cricket player in the match : ");
             cp[i] = obj.nextLine();
             run[i] = obj.nextInt();
         }
