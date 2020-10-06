@@ -25,7 +25,7 @@ public class DisplayPrimeArrayElements {
                     f++;
                 }
             }
-
+            //displayed the prime numbers 
             if (f == 0)
                 System.out.println("Prime number=" + n[i]);
         }
