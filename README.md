@@ -3,7 +3,7 @@
 A GitHub Repository to encourage and involve beginners in Open Source Contributions
 
 Steps to follow:
--   [ ] If you want to open an issue, please take follow the `issue-templates` and adhere to them.
+-   [ ] If you want to open an issue, please follow the `issue-templates` and adhere to them.
 -   [ ] Learn about Open Source Contribution from `open_source.md`.
 -   [ ] Learn basic GitHub Commands from `github_cmd.md`.
 -   [ ] View `contribution_guidelines.md` to learn how to contribute to this repository.
