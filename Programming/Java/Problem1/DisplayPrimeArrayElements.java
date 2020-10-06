@@ -3,7 +3,7 @@ public class DisplayPrimeArrayElements {
         int n[] = new int[10];
         int i, j;
         for (i = 0; i < n.length; i++) {
-            n[i] = (int) (Math.random() * 100);
+            n[i] = (int) (Math.random());// If a number is multiplied by 100, it definitely is not a Prime number.
         }
         for (i = 0; i < n.length; i++) {
             System.out.print(n[i] + " ");
@@ -12,7 +12,15 @@ public class DisplayPrimeArrayElements {
 
         for (i = 0; i < n.length; i++) {
             int f = 0;
-            for (j = 2; j < n[i]; j++) {
+            
+            // Handled some corner cases
+            if(n[i] == 1 || n[i] <= 0) {
+                f++;
+                continue;
+            }
+            
+            // Reduced the number of iterations
+            for (j = 2; j < Math.sqrt(n[i]); j++) {
                 if (n[i] % j == 0) {
                     f++;
                 }
