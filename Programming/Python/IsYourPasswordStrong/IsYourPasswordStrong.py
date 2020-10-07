@@ -1,4 +1,4 @@
-''' Create a Program that checks if the given password is strog or not. If the password is strong then it should return True and if password is not strong enough then it should return False.
+''' Create a Program that checks if the given password is strong or not. If the password is strong then it should return True and if password is not strong enough then it should return False.
 
 Here are the conditions for the password to be strong:
   Its length is at least 8.
