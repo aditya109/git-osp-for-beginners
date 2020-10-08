@@ -1,27 +1,30 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class DisplayHighestRunsScored {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
-        int size = 11;
-        String cp[] = new String[size];
-        int run[] = new int[size];
-        int i;
-        int highest;
-        for (i = 0; i < size; i++) {
+        System.out.println("Enter the number of players: ");
+        int numberOfPlayers = obj.nextInt();
+        obj.nextLine(); // https://stackoverflow.com/questions/13102045/scanner-is-skipping-nextline-after-using-next-or-nextfoo
+        String cp[] = new String[numberOfPlayers];
+        int run[] = new int[numberOfPlayers];
+        String player = cp[0];
+        int maxScore;
+        for (int i = 0; i < numberOfPlayers; i++) {
             System.out.println("Enter the name and runs scored by the cricket player : ");
             cp[i] = obj.nextLine();
             run[i] = obj.nextInt();
+            obj.nextLine() ;
         }
-        highest = run[0];
+        maxScore = -1;
 
-        for (i = 1; i < size; i++) {
-            if (run[i] > highest) {
-                highest = run[i];
+        for (int i = 0; i < numberOfPlayers; i++) {
+            if (run[i] > maxScore) {
+                maxScore = run[i];
+                player = cp[i];
             }
         }
-        System.out.println("The name and runs scored by the cricket player : " + cp[i - 1] + " " + highest);
+        System.out.println("The name and runs scored by the cricket player : " + player + " " + maxScore);
 
     }
-
 }
