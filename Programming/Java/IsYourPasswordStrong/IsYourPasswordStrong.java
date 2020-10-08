@@ -14,7 +14,9 @@ public class IsPasswordStrong{
 	
     // function to check if it contains at least one digit using isDigit() method
       public static boolean hasLeastOneDigit (String password) {
-        for(int i=0;i<password.length();i++){
+	      int l;
+	      l=password.length();
+	      for(int i=0;i<l;i++){
          char c=password.charAt(i);
          if(Character.isDigit(c)){
 	   return true;
@@ -24,7 +26,8 @@ public class IsPasswordStrong{
       }
    // function to check if it contains at least one lowercase letter using isLowerCase() method
      public static boolean hasLowerCaseLetter(String password){
-        for(int i=0;i<password.length();i++){
+	     int l;
+        for(int i=0;i<l;i++){
 	 char c=password.charAt(i);
 	   if(Character.isLowerCase(c)){
 	     return true;
@@ -34,7 +37,8 @@ public class IsPasswordStrong{
      }    
    // function to check if it contains at least one uppercase letter using isUpperCase() method
      public static boolean hasUpperCaseLetter(String password){
-        for(int i=0;i<password.length();i++){
+	     int l;
+        for(int i=0;i<l;i++){
 	 char c=password.charAt(i);
 	    if(Character.isUpperCase(c)){
 		return true;
@@ -44,7 +48,8 @@ public class IsPasswordStrong{
     }    
    // function to check if it contains at least one special character by using in keyword to check if character is available in our required characters.
       public static boolean hasLeastOneSpecialChar(String password){
-	 for(int i=0;i<password.length();i++){
+	      int l;
+	 for(int i=0;i<l;i++){
           char c=password.charAt(i);
             if(c =='!'||c =='@'||c =='#'||c =='$'||c =='%'||c =='^'||
 	       c =='&'||c =='*'||c =='('||c =='\''||c ==')'||c =='-'||c =='+'){
@@ -55,7 +60,8 @@ public class IsPasswordStrong{
     }
     // The below function will check if it contains at least 8 characters and check if all other conditions are also true. And it will return final answer.
     public static boolean isStrong(String password){
-	if (password.length()>= 8){
+	    int l;
+	if (l>= 8){
 	 if (hasLeastOneDigit(password) && hasLowerCaseLetter(password) && hasUpperCaseLetter(password) && hasLeastOneSpecialChar(password)){
 	   return true;
            }
@@ -74,6 +80,8 @@ public class IsPasswordStrong{
 	 //   System.out.println(isStrong(str1));
 	 //   String str2 ="AGjy%^&gtf";
 	 //   System.out.println(isStrong(str2));
+	 //   String str3="abhk%h19&k11"
+	 //   System.out.println(isStrong(str3));  
       
     } 
 } 
