@@ -23,9 +23,9 @@ public class DisplayPrimeArrayElements {
             for (j = 2; j < Math.sqrt(n[i]); j++) {
                 if (n[i] % j == 0) {
                     f++;
+                    break;
                 }
             }
-
             if (f == 0)
                 System.out.println("Prime number=" + n[i]);
         }
