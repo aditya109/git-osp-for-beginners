@@ -3,9 +3,9 @@ highestScore = 0
 hPlayerName = ""
 for p in range(numPlayers):
     pname = input("Please enter Player's name:")
-    pscore = input("Please enter Player's score:")
-    if int(pscore) > highestScore:
-        highestScore = int(pscore)
+    pscore = int(input("Please enter Player's score:"))
+    if pscore > highestScore:
+        highestScore = pscore
         hPlayerName = pname
 
 print("Player who scored highest runs: " + hPlayerName)
