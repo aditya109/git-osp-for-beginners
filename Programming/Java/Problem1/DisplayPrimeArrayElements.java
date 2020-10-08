@@ -1,33 +1,45 @@
-public class DisplayPrimeArrayElements {
-    public static void main(String[] args) {
-        int n[] = new int[10];
-        int i, j;
-        for (i = 0; i < n.length; i++) {
-            n[i] = (int) (Math.random());// If a number is multiplied by 100, it definitely is not a Prime number.
-        }
-        for (i = 0; i < n.length; i++) {
-            System.out.print(n[i] + " ");
-        }
-        System.out.println();
+import java.util.Scanner;
 
-        for (i = 0; i < n.length; i++) {
-            int f = 0;
-            
-            // Handled some corner cases
-            if(n[i] == 1 || n[i] <= 0) {
-                f++;
+public class DisplayPrimeArrayElements {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt(); // can be between 1 - 10^6
+        int input[] = new int[n];
+        for (int i =0; i<n; i++){
+            input[i] = in.nextInt(); // any num between range [-10^9 to 10^9 ]
+        }
+        printArray(input);
+        printPrimes(input);
+    }
+
+    private static void printPrimes(int[] input) {
+        for ( int num: input){
+            if ( num == 2){
+                System.out.print(num+" ");
+            }
+            else if(num < 2){
                 continue;
             }
-            
-            // Reduced the number of iterations
-            for (j = 2; j < Math.sqrt(n[i]); j++) {
-                if (n[i] % j == 0) {
-                    f++;
-                    break;
+            else {
+                boolean isPrime = true;
+                for (int factor = 2; factor <= num / factor; factor++) {
+                    if ( num % factor == 0){
+                        isPrime = false;
+                        break;
+                    }
+                }
+                if ( isPrime == true ){
+                    System.out.print(num+" ");
                 }
             }
-            if (f == 0)
-                System.out.println("Prime number=" + n[i]);
         }
+    }
+
+    private static void printArray(int[] input) {
+        System.out.println("Given Array: ");
+        for (int num: input){
+            System.out.print(num+" ");
+        }
+        System.out.println();
     }
 }
