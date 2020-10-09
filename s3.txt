@@ -4,15 +4,17 @@ static boolean areAnagram(char s1[], char s2[])
         Arrays.fill(count1, 0); 
         int count2[] = new int[NO_OF_CHARS]; 
         Arrays.fill(count2, 0); 
-        int i; 
+        int i,l1,l2; 
+        l1=s1.length;
+        l2=s2.length;
 
-        for (i = 0; i < s1.length && i < s2.length; 
+        for (i = 0; i < l1 && i < l2; 
              i++) { 
             count1[s1[i]]++; 
             count2[s2[i]]++; 
         } 
   
-        if (s1.length != s2.length) 
+        if (l1 != l2) 
             return false; 
   
         for (i = 0; i < NO_OF_CHARS; i++) 
