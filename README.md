@@ -1,8 +1,12 @@
 # git-osp-for-beginners
 
-### CONTRIBUTOR HIGHLIGHTS (   ):
+### CONTRIBUTOR HIGHLIGHTS (  ):
 **All further PR merges are halted, until [#155](https://github.com/aditya109/git-osp-for-beginners/issues/155) is resolved ! This step is really required for well organization of this issue.**
 **The brave soul resolving this issue will have his/her PR tagged `MVP` and will him/herself be highlighted in the repository README.md**
+
+**MVP** PR Raiser:
+- [@bhaskarsantoshk](https://github.com/bhaskarsantoshk)
+- [@xloli20](https://github.com/xloli20)
 
 A GitHub Repository to encourage and involve beginners in Open Source Contributions<br></br>
 
