@@ -1,4 +1,4 @@
-def clean_input(cc_number) -> str:
+def clean_input(cc_number: str) -> str:
     import re
     return re.sub(r'^[0-9]$', '', cc_number)
 
@@ -28,6 +28,7 @@ def is_valid_issuer(cc_number: str) -> bool:
         if length not in issuer['n_digits']:
             continue
         if prefix1 in issuer['first_digits'] or prefix2 in issuer['first_digits']:
+            print(f"Issuer: {issuer['name']}")
             return True
     else:
         return False
@@ -57,20 +58,20 @@ def luhn_algorithm(digits: [int]) -> bool:
 
 def verify_credit_card(cc_number: str) -> bool:
     card_number = clean_input(cc_number)
+    print(f"Card: {card_number}")
     if not is_valid_issuer(card_number):
-        print(f"Card '{card_number}' is invalid.")
+        print("Invalid issuer")
         return False
 
     digits = list(map(int, list(card_number)))
     result = luhn_algorithm(digits)
-    print(f"Card '{card_number}' is {'' if result else 'in'}valid.")
+    print(f"Status: {'' if result else 'in'}valid")
     return result
 
 
 if __name__ == "__main__":
-    # American Express
-    verify_credit_card('378282246310005')
-    # Mastercard
-    verify_credit_card('5105105105105100')
-    # Visa
-    verify_credit_card('4012888888881881')
+    test_cards = ['378282246310005', '5105105105105100', '4012888888881881']
+    for card in test_cards:
+        print('---------------')
+        verify_credit_card(card)
+    print('---------------')
