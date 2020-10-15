@@ -19,3 +19,13 @@ const luhnCheck = (num) => {
   //   Return true if sum is divisible by 10, false otherwise.
   return sum % 10 === 0;
 };
+
+// This is a simple vanilla test suit i made to ensure the luhnCheck is word
+// in orer to run this suite use NodeJs on your CLI as below:
+// node luhnALogorithm.js
+testObj = {
+  test1: luhnCheck("4485275742308327") ? "PASS" : "FAILD", //Expcected True
+  test2: luhnCheck("6011329933655299") ? "FAILD" : "PASS", // Expected False
+  test3: luhnCheck("123456789") ? "FAILD" : "PASS", //Exptected False
+};
+console.table(testObj);
