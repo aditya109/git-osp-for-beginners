@@ -1,5 +1,5 @@
 // Implementation of the Luhn Algorithm used to validate
-//  a variety of identification numbers
+// a variety of identification numbers
 // such as credit card numbers
 // IMEI numbers, National Provider Identifier numbers etc.
 
@@ -20,8 +20,8 @@ const luhnCheck = (num) => {
   return sum % 10 === 0;
 };
 
-// This is a simple vanilla test suit i made to ensure the luhnCheck is word
-// in orer to run this suite use NodeJs on your CLI as below:
+// This is a simple vanilla test suit i made to ensure that luhnCheck is work
+// in order to run this suit use NodeJs on your CLI as below:
 // node luhnALogorithm.js
 testObj = {
   test1: luhnCheck("4485275742308327") ? "PASS" : "FAILD", //Expcected True
