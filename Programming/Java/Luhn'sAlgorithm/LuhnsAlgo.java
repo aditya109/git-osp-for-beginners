@@ -1,4 +1,3 @@
-
 import java.lang.*;
 import java.util.*;
 
@@ -23,7 +22,7 @@ public class LuhnsAlgo {
             System.out.println("Please Enter the Credit-Card No : ");
             creditCardNo = nsc.nextLine().replaceAll("[ -]","");
 
-        }while( creditCardNo.matches("[0-9][a-zA-Z]+") || Long.parseLong(creditCardNo) <= 0 );
+        }while( creditCardNo.matches("[[0-9]{1,15}[a-zA-Z]{1,14}]+") || Long.parseLong(creditCardNo) <= 0 );
 
         Long cc_no = Long.parseLong(creditCardNo);
 
@@ -103,13 +102,13 @@ public class LuhnsAlgo {
             if(i%2==0){
                 // we have to multiply them with 2
                 long t = ((counter % 10) * 2);
-                // if product is a 2-digit no then split it and add it with rest of the digits till front-end
+                // if product is a 2-digit no. then split it and add it with rest of the digits till front-end
                 //i.e 2*6 = 12 -> 1+2 = 3
                 even += (t % 10) + (t / 10);
 
             }
             else{
-                // we have add odd no. digits staring from rear-end till front-end
+                // we have to add odd no. digits staring from rear-end till front-end
                 odd += counter % 10;
             }
             counter /= 10;
