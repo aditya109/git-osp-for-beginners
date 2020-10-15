@@ -12,7 +12,7 @@
 
 import java.util.*;
 //Checks if the password is strong or not
-public class strongPassword {
+public class IsStrongPassword {
     public boolean PasswordCheck(String s){                       //.* represents any character
         if(s.length()>=8){                                        //Checks the length of password
             if(s.matches("(.*[A-Z].*)")){                         //Checks if there is atleast one Uppercase Character
