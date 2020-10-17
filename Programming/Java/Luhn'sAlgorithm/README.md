@@ -4,7 +4,7 @@
 > That is whether it belongs to **MASTERCARD**, **VISA**, **AMERICAN EXPRESS**.<br>
 
 ### NOTE :
-#### For the mentioned cards it will check their first digits as well as the total no. of digits that here mentioned below :
+#### For the mentioned cards it will check their first digits as well as the total no. of digits that are mentioned below :
 
 <pre>
 - MASTERCARD
@@ -20,7 +20,7 @@
   * No. of digits = 13 or 16
 </pre>
 
-#### For the main part find whether checksum % 10 is "0" or not
+#### For the main part find whether checksum % 10 is "0" or not ?
 <pre>
 - Inorder to calculate checksum we have to do two things
   
@@ -37,7 +37,7 @@
 
 </pre>
 
-#### Very Last step is to check whether the checksum divided by 10 would give us remainder "0" or not.
+#### Very Last step is to check whether the checksum divided by 10 would give us remainder "0" or not ?
 
 > If so then the credit no. is valid and need to very it's length and it's also valid then woo-hoo :tada: you have a valid credit card.<br>
 
