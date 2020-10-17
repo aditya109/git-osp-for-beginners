@@ -39,7 +39,7 @@
 
 #### Very Last step is to check whether the checksum divided by 10 would give us remainder "0" or not ?
 
-> If so then the credit no. is valid and need to very it's length and it's also valid then woo-hoo :tada: you have a valid credit card.<br>
+> If so then the credit no. is valid and needs to verify its length and if it's also valid then woo-hoo :tada: you have a valid credit card.<br>
 
 > Else if it doesn't which means you have an invalid card :stuck_out_tongue:.<br>
 
