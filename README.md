@@ -1,4 +1,4 @@
-# git-osp-for-beginners
+# Welcome to `git-osp-for-beginners`
 
 ### ⚡ CONTRIBUTOR HIGHLIGHTS ⚡:
 **All `merge halt`s have been lifted, as [#155](https://github.com/aditya109/git-osp-for-beginners/issues/155) is resolved !**
@@ -12,9 +12,7 @@ A GitHub Repository to encourage and involve beginners in Open Source Contributi
 Steps to follow:
 
 -   [ ] If you want to open an issue, please follow the `issue-templates` and adhere to them.
--   [ ] Learn about Open Source Contribution from `open_source.md`.
--   [ ] Learn basic GitHub Commands from `github_cmd.md`.
--   [ ] View `contribution_guidelines.md` to learn how to contribute to this repository.
+-   [ ] View `CONTRIBUTING.md` to learn how to contribute to this repository.
 -   [ ] If you face any problem, please feel free to raise any issue.
 
 PLEASE ADHERE TO THE RULE : **1 ISSUE == 1 FILE ADDITION/CHANGE == 1 PR**
