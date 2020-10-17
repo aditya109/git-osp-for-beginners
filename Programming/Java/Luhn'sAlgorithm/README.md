@@ -29,7 +29,7 @@
     * Also if any product is 2-digit no. then we have to split them add them.
     * i.e : 5 * 2  = 10  which would be written as 1 + 0 + 6 + 2 = 9.
     
-  2. Add the digits that are not multiplied by 2 starting from rear-end front-end.
+  2. Add the digits that are not multiplied by 2 starting from rear-end till front-end.
     * E.g: 6 + 4 + 2 = 12.
   
   3. Lastly add both sum of even and odd no. of digits which we calculated earlier.
