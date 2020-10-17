@@ -1,5 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
+int addDigits(int add){
+    int sum=0;
+    while (add != 0){
+    sum = sum + add % 10;
+    add = add / 10;
+    }
+    return sum;
+}
 int main(){
     string cardno;
     cout<<"Enter the credit card number that you want to check:";
@@ -12,12 +20,7 @@ int main(){
                                      //of the digits which has to be converted to real numerical values. So subtracting 48 from it will do the trick.
                                      //Here (cardno[i]-48)*2 is done to check for the even indices sum so as to add to the checksum.
             if(add>9){  //Adding individual digits if (cardno[i]-48)*2 is more than 9 that is 2 digit number
-                int sum=0;
-                while (add != 0){
-                    sum = sum + add % 10;
-                    add = add / 10;
-                }
-                add=sum;
+                add=addDigits(add);
             }
             even=even+add;
         }
@@ -30,12 +33,7 @@ int main(){
         for(int i=cardno.length()-2;i>=1;i=i-2){
             int add=(cardno[i]-48)*2;
             if(add>9){
-                int sum=0;
-                while (add != 0){
-                    sum = sum + add % 10;
-                    add = add / 10;
-                }
-                add=sum;
+                add=addDigits(add);
             }
             even=even+add;
         }
