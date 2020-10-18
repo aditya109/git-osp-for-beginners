@@ -14,8 +14,7 @@ function zigzag(s,n){
         }else{
             arraySet[n - count -1].push(s.charAt(i))
         }
-        
-        
+
         if((count === n && !change) || (count === n-2 && change)){
             count = 0
             change = !change;
