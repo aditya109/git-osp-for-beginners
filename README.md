@@ -1,6 +1,6 @@
 # Welcome to `git-osp-for-beginners`
 
-### Notice Board 📢
+### NOTICE BOARD 📢
 
 Please check this issue [#204](https://github.com/aditya109/git-osp-for-beginners/issues/204). Feel free to leave your personal views on this issue.
 
