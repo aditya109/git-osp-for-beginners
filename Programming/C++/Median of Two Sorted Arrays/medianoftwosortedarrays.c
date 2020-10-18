@@ -39,19 +39,19 @@ int main()
         }
     }
     //Finding median
-    float median;
+   float median;
+    int middle;
     if(mergedarraysize == 1){
-        if(m==1)
+        if(m == 1)
             median=num1[0];
         else
             median=num2[0];
+    }else if(mergedarraysize%2==0){
+        middle=mergedarraysize/2;
+        median=(merged_array[middle-1]+(float)merged_array[middle])/2;
     }else{
-        int m=mergedarraysize/2;
-        if(m%2 == 0){
-            median=(merged_array[m-1]+(float)merged_array[m])/2;
-        }else{
-            median=merged_array[m];
-        }
+        middle=mergedarraysize/2;
+        median=merged_array[middle];
     }
     printf("Median:%.5f",median);
     return 0;
