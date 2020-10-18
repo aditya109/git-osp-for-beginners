@@ -11,7 +11,7 @@ Please check this issue [#204](https://github.com/aditya109/git-osp-for-beginner
 - [@bhaskarsantoshk](https://github.com/bhaskarsantoshk)
 - [@xloli20](https://github.com/xloli20)
 
-A GitHub Repository to encourage and involve beginners in Open Source Contributions<br></br>
+A GitHub Repository to encourage and involve beginners in Open Source Contributions
 
 Steps to follow:
 
@@ -21,8 +21,6 @@ Steps to follow:
 
 PLEASE ADHERE TO THE RULE : **1 ISSUE == 1 FILE ADDITION/CHANGE == 1 PR**
 
-
-follow these steps for contribute 
 Happy coding !
 
 With 💚 from India.
