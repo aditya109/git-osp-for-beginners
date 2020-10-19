@@ -1,11 +1,11 @@
 def find_longest_palindromic_substring(s):
     list_ = []
     all_substrings_of_string = res = [s[i: j] for i in range(len(s)) for j in range(i + 1, len(s) + 1)] 
-    current_palindrome_lenght=0
+    current_palindrome=0
     for f in all_substrings_of_string:
         if is_palindrome(f):
             if current_palindrome_lenght < len(f):
-                current_palindrome_lenght=len(f)
+                current_palindrome=f
     return current_palindrome_lenght
 
 
