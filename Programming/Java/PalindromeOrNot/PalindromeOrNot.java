@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Palindrome {
+public class PalindromeOrNot {
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         String A=sc.next();
