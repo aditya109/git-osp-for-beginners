@@ -13,4 +13,9 @@ public class Zoo {
         this.animalList = animalList;
     }
 
+    public void feedAnimal(String name) {
+        System.out.println("You are Feeding to " + name);
+    }
+
+
 }
