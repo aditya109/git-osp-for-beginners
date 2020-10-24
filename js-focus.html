@@ -1,0 +1,25 @@
+<html>
+<head>
+<title></title>
+<script>
+function onfocusDesign()
+{
+var textbox = document.getElementById("txtName");
+textbox.style.color="red";
+textbox.style.fontSize="30px";
+textbox.style.backgroundColor="grey";
+}
+function onfocusLeave()
+{
+var text = document.getElementById("txtName");
+text.style.Color="blue";
+text.style.fontSize="30px";
+text.style.backgroundColor="red";
+}
+</script>
+</head>
+
+<body>
+<span>your name :</span>
+<input id="txtName" type="text" onfocus="onfocusDesign()" onfocusout="onfocusLeave()">
+</body
