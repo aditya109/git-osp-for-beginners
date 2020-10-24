@@ -55,4 +55,14 @@ public class Animal {
     public void setMostLikedFood(String mostLikedFood) {
         this.mostLikedFood = mostLikedFood;
     }
+
+    @Override
+    public String toString() {
+        return "This animal-> " +
+                "name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                ", gender='" + gender + '\'' +
+                ", species='" + species + '\'' +
+                ", mostLikedFood='" + mostLikedFood + '\'';
+    }
 }
