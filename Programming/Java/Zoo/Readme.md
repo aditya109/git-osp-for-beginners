@@ -1,6 +1,6 @@
 
-* Zoo Management Application
-==========================
+Zoo Management Application
+
 Created By- Yasas Sandeepa
 Undergratuate
 Bsc(Hons) in Information Technology
