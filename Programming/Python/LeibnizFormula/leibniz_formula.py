@@ -1,6 +1,5 @@
 def leibniz(k: int) -> float:
 	sum = 0.0
-
 	for i in range(k):
 		sum += leibniz_step(i)
 
