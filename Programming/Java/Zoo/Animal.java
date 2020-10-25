@@ -1,5 +1,10 @@
 
-//This is animal Entity
+/**
+ * This is animal Entity
+ *
+ * @author Yasas Sandeepa
+ * @version 25-10-2020
+ */
 public class Animal {
 
     private String name;
@@ -65,4 +70,7 @@ public class Animal {
                 ", species='" + species + '\'' +
                 ", mostLikedFood='" + mostLikedFood + '\'';
     }
+  
+    //I remove the Comparable implementation and compareTo function
+
 }

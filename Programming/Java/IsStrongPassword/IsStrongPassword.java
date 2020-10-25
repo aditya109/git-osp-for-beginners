@@ -54,7 +54,7 @@ public class IsStrongPassword {
         Scanner scan = new Scanner(System.in);
         //input password
         String s = scan.next();
-        strongPassword obj= new strongPassword();
+        IsStrongPassword obj= new IsStrongPassword();
         //calls function PasswordCheck
         System.out.println(obj.PasswordCheck(s));
         scan.close();

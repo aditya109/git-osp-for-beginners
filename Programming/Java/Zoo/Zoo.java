@@ -1,5 +1,10 @@
-// This is our Zoo
 
+/**
+ * This is our Zoo
+ *
+ * @author Yasas Sandeepa
+ * @version 25-10-2020
+ */
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -36,6 +41,6 @@ public class Zoo {
         System.out.println("Thank you!");
 
     }
-
+//I removed the largestPopulation method
 
 }
