@@ -2,8 +2,8 @@
 
 ### NOTICE BOARD 📢 (Make sure to `Watch 👀` to this repo, to get notified of freshly added issues)
 
-- Please check this issue [#204](https://github.com/aditya109/git-osp-for-beginners/issues/204). Feel free to leave your personal views on this issue.
-- Recently added issue (programming-questions): [#231](https://github.com/aditya109/git-osp-for-beginners/issues/231), [#232](https://github.com/aditya109/git-osp-for-beginners/issues/232), [#233](https://github.com/aditya109/git-osp-for-beginners/issues/233)
+
+- Recently added issue (programming-questions): [#283](https://github.com/aditya109/git-osp-for-beginners/issues/283), [#281](https://github.com/aditya109/git-osp-for-beginners/issues/281), [#278](https://github.com/aditya109/git-osp-for-beginners/issues/278), [#276](https://github.com/aditya109/git-osp-for-beginners/issues/276), [#276](https://github.com/aditya109/git-osp-for-beginners/issues/276), [#275](https://github.com/aditya109/git-osp-for-beginners/issues/275), [#267](https://github.com/aditya109/git-osp-for-beginners/issues/267), [#243](https://github.com/aditya109/git-osp-for-beginners/issues/243)
 
 ### ⚡ CONTRIBUTOR HIGHLIGHTS ⚡:
 **All `merge halt`s have been lifted, as [#155](https://github.com/aditya109/git-osp-for-beginners/issues/155) is resolved !**
