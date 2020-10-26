@@ -1,59 +1,46 @@
-import java.util.ArrayList;
-import java.util.Collections;
+
 /**
- * Write a description of class Zoo here.
+ * This is our Zoo
  *
- * @author Gustav Sejr Rasmussen
- * @version 05-10-2020
+ * @author Yasas Sandeepa
+ * @version 25-10-2020
  */
-public class Zoo
-{
-    // instance variables - replace the example below with your own
-    private String name;
-    private ArrayList<Animal> animals;
+import java.util.Iterator;
+import java.util.LinkedList;
 
-    /**
-     * Constructor for objects of class Zoo
-     */
-    public Zoo(String name)
-    {
-        this.name = name;
-        animals = new ArrayList<Animal>();
+public class Zoo {
+
+    private LinkedList<Animal> animalList;
+
+    public Zoo() {
+        this.animalList = new LinkedList<Animal>();
     }
 
-    public String getName() {
-        return name;
+    public LinkedList<Animal> getAnimalList() {
+        return animalList;
     }
 
-    public void add(Animal a) {
-        animals.add(a);
+    public void addAnimal(Animal animal) {
+        this.getAnimalList().add(animal);
+
     }
 
-    public int animals() {
-        int result = 0;
-        for(Animal a : animals) {
-            if(a.getFemales() > 0 && a.getMales()>0) {
-                result += a.getFemales()+a.getMales();
-            }
+    // todo: adding proper logic to get the animal
+    public void feedAnimal(String name) {
+        System.out.println("You are Feeding to " + name);
+    }
+
+    public void viewAnimals() {
+        System.out.println("==========All animals in the ZOO===========");
+        LinkedList<Animal> list = this.getAnimalList();
+        Iterator<Animal> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
         }
-        return result;
-    }
+        System.out.println("============================================");
+        System.out.println("Thank you!");
 
-    public Animal largestPopulation() {
-        Animal result = null;
-        for(Animal a : animals) {
-            if(result == null || (a.getFemales() + a.getMales()) > (result.getFemales() + result.getMales())) {
-                result = a;
-            }
-        }
-        return result;
     }
+//I removed the largestPopulation method
 
-    public void printZoo() {
-        Collections.sort(animals);
-        System.out.println(name + ":");
-        for(Animal a : animals) {
-            System.out.println(a);
-        }
-    }
 }

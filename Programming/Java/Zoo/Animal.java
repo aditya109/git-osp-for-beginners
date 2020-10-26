@@ -1,48 +1,76 @@
 
 /**
- * Write a description of class Animal here.
+ * This is animal Entity
  *
- * @author Gustav Sejr Rasmussen
- * @version 05-10-2020
+ * @author Yasas Sandeepa
+ * @version 25-10-2020
  */
-public class Animal implements Comparable<Animal>
-{
-    // instance variables - replace the example below with your own
-    private String name;
-    private int females;
-    private int males;
+public class Animal {
 
-    /**
-     * Constructor for objects of class Animal
-     */
-    public Animal(String name, int females, int males)
-    {
+    private String name;
+    private String age;
+    private String gender;
+    private String species; //we can change this to enum in another version
+    private String mostLikedFood;
+
+    public Animal(String name, String age, String gender, String species, String mostLikedFood) {
         this.name = name;
-        this.females = females;
-        this.males = males;
+        this.age = age;
+        this.gender = gender;
+        this.species = species;
+        this.mostLikedFood = mostLikedFood;
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
-    public int getFemales() {
-        return this.females;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public int getMales() {
-        return this.males;
+    public String getAge() {
+        return age;
     }
 
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
+    public String getMostLikedFood() {
+        return mostLikedFood;
+    }
+
+    public void setMostLikedFood(String mostLikedFood) {
+        this.mostLikedFood = mostLikedFood;
+    }
+
+    @Override
     public String toString() {
-        return name + ": "  + females + " female and " + males + " male";
+        return "This animal-> " +
+                "name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                ", gender='" + gender + '\'' +
+                ", species='" + species + '\'' +
+                ", mostLikedFood='" + mostLikedFood + '\'';
     }
-
-    public int compareTo(Animal other) {
-        if(females != other.females) {
-            return other.females-females;
-        } else
-            return other.males-males;
-    }
+  
+    //I remove the Comparable implementation and compareTo function
 
 }
