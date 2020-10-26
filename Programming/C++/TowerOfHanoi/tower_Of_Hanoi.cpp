@@ -1,22 +1,20 @@
-#include <bits/stdc++.h> 
-using namespace std; 
+#include<iostream>
+using namespace std;
+//recursive funtion
+void TowerOfHanoi(int num,char A,char B,char C){
+  if(num>0){
+    TowerOfHanoi(num-1, A, C, B);
+    cout<<"Move a disk "<<num<<" from "<<" "<<A<<" to"<<" "<<C<<endl;
+    TowerOfHanoi( num-1, B, A, C);
+  }
+}
+//main funtion
+int main(){
+  int numOfDisk;
+  cout<<"Enter the no. of disks"<<endl;
+  cin>>numOfDisk;
   
-void tower_Of_Hanoi(int n, char from, char to, char aux)  
-{  
-    if (n == 1)  
-    {  
-        cout << "Move disk 1 from rod " << from <<  " to rod " << to<< "\n";  
-        return;  
-    }  
-    tower_Of_Hanoi(n - 1, from, aux, to);  
-    cout << "Move disk " << n << " from rod " << from << " to rod " << to << "\n";  
-    tower_Of_Hanoi(n - 1, aux, to, from);  
-}  
-int main()  
-{  
-    int n;
-    cout << "Enter the number of disks :\n";
-    cin >> n; 
-    tower_Of_Hanoi(n, 'A', 'C', 'B'); // A, B and C are the name of rods  
-    return 0;  
-}  
+  //calling recursive funtion
+  TowerOfHanoi(numOfDisk,'A','B','C');//A is the source rod , C is destination rod ,B is auxiliary rod
+  cout<<endl;
+}
