@@ -14,7 +14,9 @@ double leibniz_step(int k) {
 
 double leibniz(int k) {
     double sum = 0.0;
-    for (int i=0; i<k; i++) {
+    int i;
+
+    for (i=0; i<k; i++) {
         sum += leibniz_step(i);
     }
 
@@ -22,5 +24,5 @@ double leibniz(int k) {
 }
 
 int main() {
-    printf("%f", leibniz(10000));
+    printf("%.16f", leibniz(10000));
 }
