@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int n,i,j,diff;
     printf("Please enter the max number of elements in the array ");
@@ -35,11 +35,16 @@ void main()
         printf("%d ",a[i]);
     }
     temp=0;
+    if(n<2)
+    return 0;
+    else
+    {
     for(i=0;i<(n-1);i++)
     {
         diff=a[i+1]-a[i];
         if(diff>temp)
         temp=diff;
     }
-    printf("\nMaximum gap is %d",temp);
+    printf("\nMaximum difference is %d",temp);
+    }
 }
