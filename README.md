@@ -4,7 +4,6 @@
 
 #### FINAL COUNTDOWN ⏰ Only 3 days left ! Hurry Up Before 2020 Hacktoberfest ends !
 
-- Recently added issues (programming-questions): [#283](https://github.com/aditya109/git-osp-for-beginners/issues/283), [#281](https://github.com/aditya109/git-osp-for-beginners/issues/281), [#278](https://github.com/aditya109/git-osp-for-beginners/issues/278), [#276](https://github.com/aditya109/git-osp-for-beginners/issues/276), [#276](https://github.com/aditya109/git-osp-for-beginners/issues/276), [#275](https://github.com/aditya109/git-osp-for-beginners/issues/275), [#267](https://github.com/aditya109/git-osp-for-beginners/issues/267), [#243](https://github.com/aditya109/git-osp-for-beginners/issues/243)
 ---
 
 ### ⚡ CONTRIBUTOR HIGHLIGHTS ⚡:
