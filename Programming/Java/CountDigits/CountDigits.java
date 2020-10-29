@@ -1,5 +1,3 @@
-package Programming.Java.Problem5;
-
 import java.util.*;
 
 public class CountDigits {

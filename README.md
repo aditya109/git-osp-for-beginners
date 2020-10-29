@@ -1,9 +1,10 @@
 # Welcome to `git-osp-for-beginners`
-
+---
 ### NOTICE BOARD 📢 (Make sure to `Watch 👀` to this repo, to get notified of freshly added issues)
 
-- Please check this issue [#204](https://github.com/aditya109/git-osp-for-beginners/issues/204). Feel free to leave your personal views on this issue.
-- Recently added issue (programming-questions): [#231](https://github.com/aditya109/git-osp-for-beginners/issues/231), [#232](https://github.com/aditya109/git-osp-for-beginners/issues/232), [#233](https://github.com/aditya109/git-osp-for-beginners/issues/233)
+#### FINAL COUNTDOWN ⏰ Only 3 days left ! Hurry Up Before 2020 Hacktoberfest ends !
+
+---
 
 ### ⚡ CONTRIBUTOR HIGHLIGHTS ⚡:
 **All `merge halt`s have been lifted, as [#155](https://github.com/aditya109/git-osp-for-beginners/issues/155) is resolved !**
@@ -11,7 +12,9 @@
 **MVP** PR Raiser:
 - [@bhaskarsantoshk](https://github.com/bhaskarsantoshk)
 - [@xloli20](https://github.com/xloli20)
+----
 
+### Description 
 A GitHub Repository to encourage and involve beginners in Open Source Contributions
 
 Steps to follow:
