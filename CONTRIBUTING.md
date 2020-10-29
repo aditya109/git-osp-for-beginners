@@ -11,7 +11,7 @@ For starters, you could help in improving the sections in this document by eithe
 
 ## Steps to Contribute :
 
-* Find an issue to work on or create a new issue. You can pick up from a list of [good-first-issues](https://github.com/litmuschaos/litmus/labels/good%20first%20issue).
+* Find an issue to work on or create a new issue. You can pick up from a list of [active-issues](https://github.com/aditya109/git-osp-for-beginners/issues).
 * Claim your issue by commenting your intent to work on it to avoid duplication of efforts. 
 * Fork the repository on GitHub.
 * Create a branch from where you want to base your work (usually master).
