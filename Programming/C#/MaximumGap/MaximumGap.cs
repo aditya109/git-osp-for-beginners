@@ -22,7 +22,7 @@ namespace Maximum_Gap
 
             for(int i = 0; i < arraySize; i++)
                 for (int j = 1; j < arraySize; j++)
-                    if(i > j)
+                    if(array[i] > array[j])
                     {
                         int aux = array[i];
                         array[i] = array[j];
