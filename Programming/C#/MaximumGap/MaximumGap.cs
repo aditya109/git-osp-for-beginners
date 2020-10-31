@@ -31,9 +31,11 @@ namespace Maximum_Gap
 
             int maxGap = 0;
 
+            if(arraySize >= 2) {
             for (int i = 0; i < arraySize - 1; i++)
                 if (array[i] - array[i + 1] > maxGap)
                     maxGap = array[i] - array[i + 1];
+            }
 
             Console.WriteLine();
             Console.WriteLine("Max gap: {0}", maxGap);
