@@ -9,7 +9,6 @@
 ---
 
 ### ⚡ CONTRIBUTOR HIGHLIGHTS ⚡:
-**All `merge halt`s have been lifted, as [#155](https://github.com/aditya109/git-osp-for-beginners/issues/155) is resolved !**
 
 **MVP** PR Raiser:
 - [@bhaskarsantoshk](https://github.com/bhaskarsantoshk)
