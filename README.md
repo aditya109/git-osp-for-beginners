@@ -2,7 +2,9 @@
 ---
 ### NOTICE BOARD 📢 (Make sure to `Watch 👀` to this repo, to get notified of freshly added issues)
 
-#### FINAL COUNTDOWN ⏰ Only 3 days left ! Hurry Up Before 2020 Hacktoberfest ends !
+#### By the end of this week, this repository will be archived.
+#### Thanks for all your contributions and hope to see you again next year! 🎉🥳
+#### Have fun guys ! Happy Hacking !
 
 ---
 
