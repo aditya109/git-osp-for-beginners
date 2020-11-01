@@ -1,6 +1,6 @@
 ##############################################################################
-Python program to detect egdes : Canny Edge Detection
-Code by Kavyapriya R
+"""Python program to detect egdes : Canny Edge Detection
+Code by Kavyapriya R"""
 ##############################################################################
 
 import cv2
