@@ -2,7 +2,7 @@
 ---
 ### NOTICE BOARD 📢 (Make sure to `Watch 👀` to this repo, to get notified of freshly added issues)
 
-#### By the end of this week, this repository will be archived.
+#### This repository will be archived, as of now.
 #### Thanks for all your contributions and hope to see you again next year! 🎉🥳
 #### Have fun guys ! Happy Hacking !
 
