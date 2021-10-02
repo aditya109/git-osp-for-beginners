@@ -2,7 +2,7 @@
 name: Question expecting Javascript solution
 about: Question expecting Javascript solution
 title: "[Javascript-Solution required]"
-labels: good first issue, Hacktoberfest
+labels: good first issue, Hacktoberfest, Javascript
 assignees: ''
 
 ---
