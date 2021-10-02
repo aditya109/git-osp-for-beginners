@@ -2,7 +2,7 @@
 name: Question expecting Python solution
 about: Question expecting Python solution
 title: "[Python-Solution required]"
-labels: good first issue, Hacktoberfest
+labels: good first issue, Hacktoberfest, Python
 assignees: ''
 
 ---
