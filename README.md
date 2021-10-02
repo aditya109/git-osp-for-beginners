@@ -27,7 +27,7 @@ Read [`CONTRIBUTING.md`](https://github.com/aditya109/git-osp-for-beginners/blob
   - Ping your ideas 💡 in [Ideas channel](https://github.com/aditya109/git-osp-for-beginners/discussions/categories/ideas).
   - If you are stuck 🤔, discuss in [Q&A channel](https://github.com/aditya109/git-osp-for-beginners/discussions/categories/q-a).
 
-- If you want to open an issue, please follow the [`issue-templates`](https://github.com/aditya109/git-osp-for-beginners/issues/new?assignees=&labels=Hacktoberfest%2C+good+first+issue&template=programming-question.md&title=%5BQuestion%5D) and adhere to them.
+- If you want to open an issue, please follow the [`issue-templates`](https://github.com/aditya109/git-osp-for-beginners/issues/new/choose) and adhere to them.
 
 - If you face any problem 😟, please feel free to raise any issue in [General channel](https://github.com/aditya109/git-osp-for-beginners/discussions/categories/general) in Discussions.
 
