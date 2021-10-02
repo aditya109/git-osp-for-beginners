@@ -2,7 +2,7 @@
 name: Question expecting Golang solution
 about: Question expecting Golang solution
 title: "[Golang-Solution required]"
-labels: good first issue, Hacktoberfest
+labels: good first issue, Hacktoberfest, Golang
 assignees: ''
 
 ---
