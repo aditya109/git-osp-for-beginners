@@ -2,7 +2,7 @@
 name: Question expecting Java solution
 about: Question expecting Java solution
 title: "[Java-Solution required]"
-labels: good first issue, Hacktoberfest
+labels: good first issue, Hacktoberfest, Java
 assignees: ''
 
 ---
