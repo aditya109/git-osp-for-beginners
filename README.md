@@ -20,17 +20,22 @@ Read [`CONTRIBUTING.md`](https://github.com/aditya109/git-osp-for-beginners/blob
 
 ---
 
+### Zingers ☯️:
+
+- We have opened [Discussions](https://github.com/aditya109/git-osp-for-beginners/discussions) section this time around for increasing community interaction:
+  - For general discussions 💬, use [General channel](https://github.com/aditya109/git-osp-for-beginners/discussions/categories/general).
+  - Ping your ideas 💡 in [Ideas channel](https://github.com/aditya109/git-osp-for-beginners/discussions/categories/ideas).
+  - If you are stuck 🤔, discuss in [Q&A channel](https://github.com/aditya109/git-osp-for-beginners/discussions/categories/q-a).
+
+- If you want to open an issue, please follow the [`issue-templates`](https://github.com/aditya109/git-osp-for-beginners/issues/new?assignees=&labels=Hacktoberfest%2C+good+first+issue&template=programming-question.md&title=%5BQuestion%5D) and adhere to them.
+
+- If you face any problem 😟, please feel free to raise any issue in [General channel](https://github.com/aditya109/git-osp-for-beginners/discussions/categories/general) in Discussions.
+
 ### ⚡ CONTRIBUTOR HIGHLIGHTS ⚡:
 
 **MVP** PR Raiser:
 - *Would be announced at the end of the month*
 
-
-Steps to follow:
-
--   [ ] If you want to open an issue, please follow the [`issue-templates`](https://github.com/aditya109/git-osp-for-beginners/issues/new?assignees=&labels=Hacktoberfest%2C+good+first+issue&template=programming-question.md&title=%5BQuestion%5D) and adhere to them.
--   [ ] View [`CONTRIBUTING.md`](https://github.com/aditya109/git-osp-for-beginners/blob/master/CONTRIBUTING.md) to learn how to contribute to this repository.
--   [ ] If you face any problem, please feel free to raise any issue.
 
 PLEASE ADHERE TO THE RULE : **1 ISSUE == 1 FILE ADDITION/CHANGE == 1 PR**
 
