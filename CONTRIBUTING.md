@@ -15,8 +15,13 @@ For starters, you could help in improving the sections in this document by eithe
 * Claim your issue by commenting your intent to work on it to avoid duplication of efforts. 
 * Fork the repository on GitHub.
 * Create a branch from where you want to base your work (usually master).
-* Make your changes.
-* Commit your changes by making sure the commit messages convey the need and notes about the commit.
+* Let's say the issue being solved is `CombinationSum` and the language to be used is `Java`.
+* Open `Programming` > Your language folder e.g., `Java`.
+* Check if the folder for this exists. If not, create the folder named as the Problem. 
+For example, create folder called `Combination Sum`.
+* Inside the folder, create a file called `CombinationSum.java`.
+* Please put your code inside of this file.
+* Once you are done, making your changes, commit your changes by making sure the commit messages convey the need and notes about the commit.
 * Push your changes to the branch in your fork of the repository.
 * Submit a pull request to the original repository. See [Pull Request checklist](#pull-request-checklist)
 
