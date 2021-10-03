@@ -1,0 +1,16 @@
+function removeDuplicates(nums) {
+  // Nothing to do for an empty array
+  // and a single element array is already unique
+  if (nums.length < 2) return nums.length
+  
+  let currentIndex = 0
+  
+  for (let uniqueIndex = 1; uniqueIndex < nums.length; uniqueIndex++) {
+    if (nums[currentIndex] !== nums[uniqueIndex]) {
+      currentIndex++
+      nums[currentIndex] = nums[uniqueIndex]
+    }
+  }
+  
+  return currentIndex + 1
+}
