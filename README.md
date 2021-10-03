@@ -8,7 +8,7 @@ Hi guys ! Hacktoberfest 2021 !
 
 As many of you know, I host and maintain this repository for rookies to get into Open Source world ! 
 The repository is **unarchived** as of today ! 
-Last year was a blast, hoping this year to would be bigger !
+Last year was a blast, hoping this year to be bigger !
 
 To contribute, you need to follow just 3 simple steps !
 
