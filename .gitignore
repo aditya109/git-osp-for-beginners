@@ -324,3 +324,7 @@ gradle-app.setting
 **/build/
 
 # End of https://www.toptal.com/developers/gitignore/api/java,maven,gradle,react,intellij+all,pycharm+all,webstorm+all,c++,go
+
+### Ignoring pycaches to make commits clutter free ###
+*.pyc
+__pycache__
