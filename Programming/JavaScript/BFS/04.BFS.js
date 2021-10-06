@@ -1,6 +1,5 @@
 'use strict';
-const LinkedList = require('./01.LinkedList');
-const Node = require('./00.Node');
+
 const Queue = require('./02.Queue');
 const Graph = require('./03.Graph');
 
@@ -24,8 +23,6 @@ function bfs(graph, visited, node, result) {
     }
   }
 }
-
-//Functions of Queue => queue.enqueue(int), queue.dequeue(), queue.isEmpty()
 
 function bfsTraversal(g) {
   let result = {

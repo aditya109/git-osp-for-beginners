@@ -1,6 +1,5 @@
 'use strict';
 const LinkedList = require('./01.LinkedList');
-const Node = require('./00.Node');
 
 module.exports = class Graph {
   constructor(vertices) {
