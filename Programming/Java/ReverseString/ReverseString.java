@@ -1,5 +1,5 @@
 import java.util.*;
-public class ReverseNumber{
+public class ReverseString{
     public static void main(String[] args){
         String input = "Alpabets";
         StringBuilder input1 = new StringBuilder();
