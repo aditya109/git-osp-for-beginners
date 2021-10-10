@@ -11,7 +11,7 @@ Congratulations ! 🎊🎊🎊
 
 **MVP** PR Raiser:
 - [@carlqt](https://github.com/carlqt) PR [link](https://github.com/aditya109/git-osp-for-beginners/pull/480)
-
+- [@harshitbhat](https://github.com/harshitbhat) PR [link](https://github.com/aditya109/git-osp-for-beginners/pull/507)
 ---
 
 ### Zingers ☯️:
