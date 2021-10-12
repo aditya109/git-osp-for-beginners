@@ -30,7 +30,7 @@ class Solution {
 
     int[] res, count;
     ArrayList<HashSet<Integer>> tree;
-    
+
     public int[] sumOfDistancesInTree(int N, int[][] edges) {
         tree = new ArrayList<HashSet<Integer>>();
         res = new int[N];
@@ -66,7 +66,10 @@ class Solution {
     }
 
     public static void main(String [] args){
-
+        Solution s1 = new Solution();
+        int N = 4;
+        int[][] edges = new int[N][N];
+        s1.sumOfDistancesInTree(N, edges);
 
     } 
 } 
