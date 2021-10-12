@@ -1,23 +1,37 @@
-public class Palindrome {
+package com.kholood;
+import java.util.Scanner;
+import java.lang.String;
 
-    private static void printStatusOfPalindrome(String str) {
-        if (isPalindrome(str)) {
-            System.out.println("\"" + str + "\" is a Palindrome!");
-        } else {
-            System.out.println("\"" + str + "\" is not a Palindrome!");
+public class palindrome {
+
+    public static void main(String [] args){
+
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter the number: ");
+            String reverse = "";
+            String num = sc.nextLine();
+            int length = num.length();
+
+            for( int i = length - 1; i >= 0; i-- )
+                reverse = reverse + num.charAt(i);
+            if (num.equals(reverse))
+                System.out.println("The entered string " +num +" is a palindrome.");
+            else
+                System.out.println("The entered string " +num +"  isn't a palindrome.");
+
+        System.out.print("Enter the string you want to check: ");
+        String original = sc.nextLine();
+        int n = original.length();
+        String reversestring="";
+        for(int i = n - 1; i >= 0; i--)
+        {
+            reversestring = reversestring + original.charAt(i);
+        }
+        if(original.equalsIgnoreCase(reversestring))
+            System.out.println("The string is palindrome.");
+        else
+            System.out.println("The string is not palindrome.");
+
+
         }
     }
-
-    private static boolean isPalindrome(String str) {
-        int n = str.length();
-        for (int i = 0; i < n / 2; i++)
-            if (str.charAt(i) != str.charAt(n - i - 1))
-                return false;
-        return true;
-    }
-
-    public static void main(String[] args) {
-        printStatusOfPalindrome("redivider");
-        printStatusOfPalindrome("phone");
-    }
-}
