@@ -6,7 +6,7 @@ A GitHub Repository to encourage and involve beginners in Open Source Contributi
 
 ### ⚡ CONTRIBUTOR HIGHLIGHTS ⚡:
 
-We have the first MVP PR raise of the Hacktoberfest, please give them a zing ! 
+We have the first MVP PR raisers of the Hacktoberfest, please give them a zing ! 
 Congratulations ! 🎊🎊🎊
 
 **MVP** PR Raiser:
