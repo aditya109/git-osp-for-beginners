@@ -2,7 +2,6 @@ import java.util.*;
 
 public class CombinationSum {
     public  static void  main(String[] args) {
-        public static void main (String[]args){
             int[] nums = {2, 3, 5};
             List<List<Integer>> resultCombination = combinationSumUtility(nums, 8);
 
@@ -26,7 +25,6 @@ public class CombinationSum {
             else
                 System.out.println("[]");
         }
-    }
 
         /*
          *
