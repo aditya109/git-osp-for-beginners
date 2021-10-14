@@ -4,6 +4,11 @@ A GitHub Repository to encourage and involve beginners in Open Source Contributi
 ---
 ### NOTICE BOARD 📢 (Make sure to `Watch 👀` to this repo, to get notified of freshly added issues)
 
+**PLEASE DO NOT SUBMIT ANY MORE PRS TO THIS REPOSITORY. 
+THIS REPOSITORY WAS REPORTED TO DIGITALOCEAN THAT AS A REPOSITORY DOES NOT FOLLOW GUIDELINES, AND WAS HENCE EXCLUDED.
+I SINCERELY AM GRATEFUL TO ONE AND ALL WHO HAD CONTRIBUTED BUT AS THIS REPOSITORY WAS EXCLUDED FROM HACKTOBERFEST PROJECT, SUBMITTING PRS WON'T ACCOUNT TO YOUR HACKTOBERFEST CONTRIBUTIONS.**
+
+
 ### ⚡ CONTRIBUTOR HIGHLIGHTS ⚡:
 
 We have the first MVP PR raisers of the Hacktoberfest, please give them a zing ! 
